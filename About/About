@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Grid Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/home/joshua/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 	
+    <link href="/opt/lampp/htdocs/CouverCo/About/About.css"" rel="stylesheet">
+			
+    <!-- Custom styles for this template -->
+    <link href="grid.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container about">		
+    	
+       <div class="navbar first navbar-inverse navbar-fixed-top" style="border-radius:0px">
+            <ul class = "left nav-left">
+		<li><b><p style="font-family:arial;color:white;text-align:left;font-size:10px;">Follow us on:<p></b></li>
+		<li><a href = "https://www.facebook.com/couverco"><img src="/home/joshua/Documents/CouverCo/Logos/fb.jpg" height="20" width="20"></a></li>
+	   	<li><a href = "http://www.twitter.com/couverco"><img src="/home/joshua/Documents/CouverCo/Logos/tw.jpg" height="20" width="20"></a></li>
+		<li><a href = "http://instagram.com/couverco"><img src="/home/joshua/Documents/CouverCo/Logos/ig.jpg" height="20" width="20"></a></li>
+	    </ul>	
+	    
+        </div>	
+	<nav class="navbar second navbar-inverse navbar-lower" style="border-radius:0px" role="navigation">
+	    <div class = "container-fluid">
+  	    	<div class = navbar-header">
+		    <a class = "navbar-brand" href = "/opt/lampp/htdocs/CouverCo/Home/homepage.html">Couver Co</a>	 
+		</div>
+		<div class = "collapse navbar-collapse">
+	  	    <ul class="nav navbar-nav">
+
+			<!--Wanna add hover support so it changes color to something darker-->
+			<li class="active"><a href = "#">BLOG</a><li>
+			<li class="active"><a href = "#">SHOP</a><li>
+			<li class="active"><a href = "#">CONTACT</a><li>
+			<li class="active"><a href = "#">ABOUT</a><li> 		
+		</div>
+	    </div>
+	</nav>  	
+	
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src = "/home/joshua/Documents/CouverCo/Logos/icecream.jpg" height = 500px>
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">The Brand</h2>
+          <p class="lead">Founded in/Kennewick, WA.-2012, CouverCo emerged in a garage off Vancouver Street by two guys choosing an alternate route to success.
+ 
+			What began as an idea to satisfy the hunger of a dream to build a brand has grown into a movement, EatWealthy.
+ 
+	Couver represents the people who stand out from the crowd because we don’t fit in; Couver is for the outCasts and the dreamChasers. Chester(the squirrel) has two 	versions to represent each of the founders but also is a figure that stands for youth and rebellion, and a reminder of who we are and where we come from. </p>
+ 
+			<p class ="lead">All merchandise is designed, produced, bagged, and shipped by us exclusively for you.</p>
+        </div>
+      </div>	
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Jose Cardenas</h2>
+          <p class="lead">Puthy</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src = "/home/joshua/Documents/CouverCo/Modelpics/jose1.jpg">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src = "/home/joshua/Documents/CouverCo/Modelpics/fonso1.jpg">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Fonso Herrera</h2>
+          <p class="lead">Maybe Puthy</p>
+        </div>
+      </div>
+
+	
+	
+	
+
+
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
