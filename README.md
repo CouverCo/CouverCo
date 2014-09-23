@@ -1,2 +1,1 @@
-Lets Fuckin GO
-I am Not A PUTHY
+Lets GO. Hopefully this website will actually get done
